@@ -168,3 +168,30 @@ section{
 #brain-container .check-box div{
     margin-bottom: 15px;
 }
+/* Ready section */
+#Ready-container{
+    background-color: rgb(240, 230, 212);
+}
+#Ready-container{
+    margin-bottom: 100px;
+}
+#Ready-container .ready-box{
+    padding:60px 60px;
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+}
+#Ready-container .ready-box h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+#Ready-container .ready-box p{
+    margin-bottom: 20px;
+    color: rgb(100, 102, 104);
+    font-size: 15px;
+    font-weight: 400;
+}
+#Ready-container .ready-box button{
+    margin-bottom: 20px;
+}
