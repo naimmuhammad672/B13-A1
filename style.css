@@ -9,6 +9,9 @@
     width: 80%;
     margin: 0 auto;
 }
+.hero *{
+    margin-bottom: 10px;
+}
 nav #hero-head{
     display: flex;
     justify-content: space-between;
@@ -38,4 +41,37 @@ nav #hero-head ul li a{
 }
 section{
     background-image: url(assets/hero-bg.png);
+    width: 100%;
+    height: 1300px;
+    background-repeat: no-repeat;
+    background-position: cover;
+    position: relative;
+}
+#hero-section{
+    width: 80%;
+    position: absolute;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
+    height: 400px;
+
+}
+.hero{
+    text-align: center;
+}
+.hero-btn{
+    font-size: 25px;
+    color:#469165;
+    border: none;
+    border-radius: 50px;
+    padding:8px 12px;
+    font-weight: 600;
+}
+.hero h1{
+    font-size: 70px;
+}
+.hero p{
+    color:aliceblue;
+    margin-bottom: 20px;
 }
