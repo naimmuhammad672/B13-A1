@@ -90,5 +90,44 @@ section{
     margin-left: 10px;
     border: none;
     background-color: none;
-
+}
+#note-box{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+#note-box h1{
+    margin-bottom: 10px;
+    font-size: 50px;
+}
+#note-box p{
+    font-size: 15px;
+    color:rgb(124, 126, 128);
+    font-weight: 600;
+}
+/* card section */
+#card-container .card-box{
+    display: flex;
+    gap:20px;
+}
+#card-container .card{
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 20px 20px rgb(219, 217, 214);
+    border-radius: 10px;
+}
+#card-container .card img{
+    background-color:#f82f2f;
+    padding: 10px;
+    border: none;
+    border-radius: 100px;
+    margin-top: 30px;
+}
+#card-container .card h2{
+    margin-bottom: 10px;
+}
+#card-container .card p{
+    font-size: 12px;
+    color: rgb(124, 126, 128);
+    font-weight: 500;
 }
